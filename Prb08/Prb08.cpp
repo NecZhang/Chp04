@@ -22,5 +22,7 @@ int main() {
 
 	cout << "The pizza made by " << (*pt).company << " is with diameter of " << (*pt).diameter << " and mass of " << (*pt).mass;
 
+	delete pt;
+
 	return 0;
 }

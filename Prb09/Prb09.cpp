@@ -21,5 +21,7 @@ int main() {
 	cout << &pt[1] << endl;
 	cout << sizeof(pt[0]) << endl;
 
+	delete[] pt;
+
 	return 0;
 }
